@@ -1,0 +1,87 @@
+﻿<!doctype html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="@ViewBag.MetaDescription">
+    <link rel="icon" href="~/Images/favicon.ico" type="image/x-icon">
+    <title>Elattiteres - @ViewBag.Title</title>
+    @Html.Raw(ViewBag.Polymer)
+    @Styles.Render("~/Content/css")
+  </head>
+    <body>
+        <header class="row container large-collapse medium-collapse small-collapse">
+            <div class="small-6 columns">
+                <img src="~/Images/Titereselat_CortinaSuperior.png" />
+            </div>
+            <div class="small-6 columns">
+                <img src="~/Images/Titereselat_CortinaSuperior.png" />
+            </div>
+        </header>
+        <div class="row container large-collapse escenario">
+            <div class="small-2 columns">
+                <img src="~/Images/Titereselat_CortinaIzd.png" />
+            </div>
+            <div class="small-8 columns">
+                <div class="row">
+                    <div class="small-12 medium-centered columns">
+                        <img src="~/Images/Franja_amarilla.png" class="img-liston-top" />
+                    </div>
+                </div>
+                <div class="row top-container">
+                    <div class="small-11 small-centered columns">
+                        <ul class="menu">
+                            <li class="menu-item"><a href="/" class="a-menu"><img src="~/Images/Inicio.png" class="img-menu" /></a></li>
+                            <li class="menu-item">
+                                <a href="/QuienesSomos" class="a-menu">
+                                    <img src="~/Images/Quienes_Somos.png" class="img-menu" />
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="/OfertaAcademica" class="a-menu">
+                                    <img src="~/Images/Oferca_Academica.png" class="img-menu" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="a-principal">
+                                    <img src="~/Images/Titereselat_Logo_Principal.png" class="img-principal" />
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="/LineaInvestigacion" class="a-menu">
+                                    <img src="~/Images/Linea_de_Investigacion.png" class="img-menu" />
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="/Galeria" class="a-menu">
+                                    <img src="~/Images/Galeria.png" class="img-menu" />
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="/Contacto" class="a-menu">
+                                    <img src="~/Images/Contacto.png" class="img-menu" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                @RenderBody()
+            </div>
+            <div class="small-2 columns">
+                <img src="~/Images/Titereselat_CortinaDer.png" />
+            </div>
+            <img src="~/Images/Inicio/mesa.png" class="img-mesa" />
+        </div>
+        <footer>
+            <div class="row container small-collapse">
+                <div class="small-12">
+                    <img src="~/Images/Titereselat_Asientos.png" />
+                </div>
+            </div>
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>

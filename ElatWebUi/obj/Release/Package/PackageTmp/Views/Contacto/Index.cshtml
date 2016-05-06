@@ -1,0 +1,50 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutGreen.cshtml";
+    ViewBag.Title = "CONTACTO";
+    ViewBag.Polymer = "<script src=\"/Content/bower_components/webcomponentsjs/webcomponents-lite.min.js\"></script>";
+    ViewBag.Polymer += "<link rel=\"import\" href=\"/Content/bower_components/google-map/google-map.html\">";
+}
+@section Scripts {
+    <script src="~/Scripts/Motor/Contacto.js"></script>
+}
+
+<h2 class="blanco">CONTACTO</h2>
+<google-map latitude="19.3" longitude="-98.1" zoom="11">
+    <google-map-marker latitude="19.318088" longitude="-98.193152" title="Centro Cultural “José Agustín Arrieta”">
+        <h3>Centro Cultural “José Agustín Arrieta”</h3>
+        <p>Independencia 8, Barrio de Xaltantla, <br />Santa Ana Chiuatempan</p>
+    </google-map-marker>
+</google-map>
+<p class="blanco">
+    Centro Cultural “José Agustín Arrieta”<br />
+    Calle Independencia 8, Barrio de Xaltantla,<br />
+    Santa Ana Chiuatempan<br />
+    Tlaxcala, México
+</p>
+<form id="frmContacto">
+    
+    <label>
+        <span class="blanco">Nombre</span>
+        <input type="text" name="Nombre" required/>
+    </label>
+    <label>
+        <span class="blanco">
+            Lugar de procedencia</span>
+            <input type="text" name="Procedencia" required />
+    </label>
+    <label>
+        <span class="blanco">
+            Correo electrónico</span>
+            <input type="email" name="Email" required/>
+    </label>
+    <label>
+        <span class="blanco">
+            Perfil</span>
+            <input type="text" name="Perfil" />
+    </label>
+    <label>
+        <span class="blanco">Mensaje</span>
+        <textarea name="Mensaje" required></textarea>
+    </label>
+    <button type="submit" class="button">Enviar</button>
+</form>

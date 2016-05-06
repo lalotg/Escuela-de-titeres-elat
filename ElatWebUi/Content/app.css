@@ -1,0 +1,149 @@
+body {
+    background-image: url('/Images/Fondo.png');
+}
+
+.container{
+    width: 1200px;
+}
+
+.button{
+    background-color: #204a87;
+}
+
+.oculto{
+    display:none;
+}
+
+.escenario {
+    background-color: rgb(70,2,2);
+}
+
+.home-slider {
+    background: #fff;
+    padding: 17px;
+    border-radius: 17px;
+    margin-top: -22px;
+}
+
+/*Menu top*/
+.top-container{
+    margin-top:-96px;
+}
+
+.img-liston-top{
+    margin-top: 22px;
+}
+
+.a-principal{
+    padding: 0 !important;
+}
+
+.img-principal{
+     max-width: 207px;
+}
+
+.menu-item {
+
+}
+
+.a-menu{
+    padding: 0 !important;
+}
+
+.img-mesa{
+    margin-top: -160px;
+}
+
+
+.img-menu{
+    max-width: 90px;
+}
+
+li.menu-item a {
+ text-transform: uppercase;
+ font-size: 0.6em;
+ text-align: center;    
+}
+
+.bullet-home{
+    margin-top: -40px;
+}
+
+.blanco{
+    color: #fff;
+}
+
+.oferta-container{
+    background-image: url(/Images/Oferta/Contenedor_Oferta_Academica.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: -79px;
+}
+
+.li-menu-oferta{
+    float: left;    
+    background: #008c92;
+    margin-left: 2px;
+    -webkit-transform: skew(150deg);
+	-moz-transform: skew(150deg);
+	-o-transform: skew(150deg);
+}
+
+.li-menu-oferta:hover{
+    background: #00cfd7;
+}
+
+.lnk-menu-oferta{
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 12px 2px 12px !important;
+    -webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+}
+
+.lnk-menu-oferta:hover,.lnk-menu-oferta:focus{
+    color: #fff;
+}
+
+.menu-oferta{
+    margin-top: 137px;
+    margin-left: 43px;
+    position: relative;
+    z-index: 1;
+}
+
+.oferta-descripcion{
+    padding: 0px 3px 0 55px;
+    height: 288px;
+    width: 533px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-top: 35px;
+    float: left;
+    z-index: 1;
+    position: relative;
+}
+
+.title-oferta{
+    color: #2e2e2e;
+    font-size: 16px;
+}
+
+.p-oferta{
+    color: #000000;
+    font-size: 14px;
+}
+
+.img-maestro{
+    position: relative;
+    min-width: 571px;
+    margin-left: -185px;
+    z-index: 0;
+}
+
+/* Contacto */
+  google-map {
+    height: 500px;
+    margin-bottom: 50px;
+  }
