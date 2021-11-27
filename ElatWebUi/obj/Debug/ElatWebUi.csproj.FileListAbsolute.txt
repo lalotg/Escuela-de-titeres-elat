@@ -300,3 +300,7 @@ D:\repos\Escuela-de-titeres-elat\ElatWebUi\obj\Debug\ElatWebUi.csproj.CoreCompil
 D:\repos\Escuela-de-titeres-elat\ElatWebUi\obj\Debug\ElatWebUi.csproj.CopyComplete
 D:\repos\Escuela-de-titeres-elat\ElatWebUi\obj\Debug\ElatWebUi.dll
 D:\repos\Escuela-de-titeres-elat\ElatWebUi\obj\Debug\ElatWebUi.pdb
+D:\repos\Escuela-de-titeres-elat\ElatWebUi\bin\Org.Mentalis.Security.Cryptography.dll
+D:\repos\Escuela-de-titeres-elat\ElatWebUi\bin\Mono.Math.dll
+D:\repos\Escuela-de-titeres-elat\ElatWebUi\bin\Org.Mentalis.Security.Cryptography.xml
+D:\repos\Escuela-de-titeres-elat\ElatWebUi\bin\Mono.Math.xml
